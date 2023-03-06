@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 300px auto;
+    text-align: center;
+
+}
+
+body {
+    background-color: #c4c7c8;
+}
+
+.icon ul li {
+    display: inline;
+    margin: 0px 10px;
+}
+
+.icon ul li a {
+    display: inline-block;
+    background-color: #fefefe;
+    width: 50px;
+    height: 50px;
+    border-radius: 25%;
+    position: relative;
+}
+
+.icon ul li a i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+a:hover {
+    color: black;
+}
+
+.fb {
+    color: #3c5a99;
+}
+
+.tw {
+    color: #56aded;
+}
+
+.go {
+    color: #dc4b39;
+}
+
+.db{
+    color: #f2789a;
+}
+
+.sky{
+    color:#18b3f0;
+}
